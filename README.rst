@@ -1,29 +1,27 @@
 convert-png-to-idtech3-tga
 =========================
 
-Small C99 tool that converts PNG images to idTech 3 compatible RLE TGAs
+Small tool that converts PNG images to idTech 3 compatible RLE TGAs
 (image type 10, bottom-left origin).
 
 Requirements
 ------------
 
-- C compiler with C99 support
-- Meson + Ninja
-- libpng development package
+- Go 1.20+
 
 Build
 -----
 
 .. code-block:: sh
 
-   ./build.sh
+    go run ./build-tool/main.go [--all]
 
 Run
 ---
 
 .. code-block:: sh
 
-   ./build/convert-png-to-idtech3-tga input.png output.tga
+   ./convert-png-to-idtech3-tga input.png [output.tga]
 
 Notes
 -----

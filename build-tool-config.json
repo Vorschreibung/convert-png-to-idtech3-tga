@@ -1,0 +1,16 @@
+{
+  "binName": "convert-png-to-idtech3-tga",
+  "env": {
+    "CGO_ENABLED": "0"
+  },
+  "platforms": [
+    ["darwin", "amd64"],
+    ["darwin", "arm64"],
+    ["linux", "386"],
+    ["linux", "amd64"],
+    ["linux", "arm64"],
+    ["windows", "386"],
+    ["windows", "amd64"],
+    ["windows", "arm64"]
+  ]
+}
